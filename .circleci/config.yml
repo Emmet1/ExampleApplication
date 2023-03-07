@@ -1,3 +1,4 @@
+
 version: 2.1
 
 workflows:
@@ -9,6 +10,7 @@ workflows:
             branches:
               only:
                 - main
+		- BranchCI1
 
 
 
