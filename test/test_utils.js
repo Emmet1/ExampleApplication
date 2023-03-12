@@ -9,6 +9,12 @@ describe('utils', function() {
     it('should return 37 when 15 and 22 is added', function() {
         assert.equal(utils.add(15,22), 37);
     });
+	it('should return 40 when 20 and 20 is added', function() {
+        assert.equal(utils.add(20,20), 40);
+    });
+it('should return 30 when 15 and 15 is added', function() {
+        assert.notEqual(utils.add(15,158), 30);
+    });
   });
 
   describe('#multiply()', function() {
